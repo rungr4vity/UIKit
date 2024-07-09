@@ -13,6 +13,7 @@
 		B7A6BFFD2C3C544500141129 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B7A6BFFC2C3C544500141129 /* Base */; };
 		B7A6BFFF2C3C544700141129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A6BFFE2C3C544700141129 /* Assets.xcassets */; };
 		B7A6C0022C3C544700141129 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B7A6C0012C3C544700141129 /* Base */; };
+		B7A6C0122C3C944400141129 /* LabelsTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A6C0112C3C944400141129 /* LabelsTutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B7A6BFFE2C3C544700141129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A6C0012C3C544700141129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7A6C0032C3C544700141129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A6C0112C3C944400141129 /* LabelsTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsTutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,88 @@
 		B7A6BFF42C3C544500141129 /* UIKitProject */ = {
 			isa = PBXGroup;
 			children = (
-				B7A6BFF52C3C544500141129 /* AppDelegate.swift */,
-				B7A6BFF72C3C544500141129 /* SceneDelegate.swift */,
-				B7A6BFF92C3C544500141129 /* ViewController.swift */,
-				B7A6BFFB2C3C544500141129 /* Main.storyboard */,
-				B7A6BFFE2C3C544700141129 /* Assets.xcassets */,
-				B7A6C0002C3C544700141129 /* LaunchScreen.storyboard */,
-				B7A6C0032C3C544700141129 /* Info.plist */,
+				B7A6C00A2C3C54FD00141129 /* App */,
+				B7A6C00B2C3C551800141129 /* Basics */,
+				B7A6C00D2C3C552600141129 /* Crypto */,
+				B7A6C00E2C3C553400141129 /* Extensions */,
+				B7A6C0092C3C54EC00141129 /* Resources */,
+				B7A6C00F2C3C553900141129 /* Storyboards */,
 			);
 			path = UIKitProject;
+			sourceTree = "<group>";
+		};
+		B7A6C0092C3C54EC00141129 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7A6C0032C3C544700141129 /* Info.plist */,
+				B7A6BFFE2C3C544700141129 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B7A6C00A2C3C54FD00141129 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B7A6BFF52C3C544500141129 /* AppDelegate.swift */,
+				B7A6BFF72C3C544500141129 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B7A6C00B2C3C551800141129 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				B7A6C0142C3CB3E800141129 /* Images */,
+				B7A6C0132C3CB3E200141129 /* Buttons */,
+				B7A6C0102C3C93D300141129 /* Labels */,
+				B7A6BFF92C3C544500141129 /* ViewController.swift */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		B7A6C00D2C3C552600141129 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		B7A6C00E2C3C553400141129 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B7A6C00F2C3C553900141129 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B7A6C0002C3C544700141129 /* LaunchScreen.storyboard */,
+				B7A6BFFB2C3C544500141129 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B7A6C0102C3C93D300141129 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				B7A6C0112C3C944400141129 /* LabelsTutorialViewController.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		B7A6C0132C3CB3E200141129 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B7A6C0142C3CB3E800141129 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +216,7 @@
 				B7A6BFFA2C3C544500141129 /* ViewController.swift in Sources */,
 				B7A6BFF62C3C544500141129 /* AppDelegate.swift in Sources */,
 				B7A6BFF82C3C544500141129 /* SceneDelegate.swift in Sources */,
+				B7A6C0122C3C944400141129 /* LabelsTutorialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +370,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SVNG4U97KZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIKitProject/Info.plist;
+				INFOPLIST_FILE = UIKitProject/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +398,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SVNG4U97KZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIKitProject/Info.plist;
+				INFOPLIST_FILE = UIKitProject/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
