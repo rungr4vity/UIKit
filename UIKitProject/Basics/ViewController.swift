@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         
         view.addSubview(lblTitle)
-        lblTitle.center
+        
     }
 
     @IBAction func buttonTaped(_ sender: Any) {
